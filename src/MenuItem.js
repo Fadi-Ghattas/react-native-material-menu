@@ -1,7 +1,7 @@
 import React from 'react';
 
 import PropTypes from 'prop-types';
-import { StyleSheet, Text, TouchableHighlight } from 'react-native';
+import { StyleSheet, Text, TouchableHighlight, View } from 'react-native';
 
 import WidthContext from './WidthContext';
 
@@ -11,7 +11,7 @@ function MenuItem({
   disabledTextColor,
   onPress,
   style,
-  textStyle,
+  viewStyle,
   underlayColor,
 }) {
   return (
@@ -23,16 +23,16 @@ function MenuItem({
           style={[styles.container, style, { width }]}
           underlayColor={underlayColor}
         >
-          <Text
-            numberOfLines={1}
+          <View
+            // numberOfLines={1}
             style={[
               styles.title,
               disabled && { color: disabledTextColor },
-              textStyle,
+              viewStyle,
             ]}
           >
             {children}
-          </Text>
+          </View>
         </TouchableHighlight>
       )}
     </WidthContext.Consumer>
@@ -45,7 +45,7 @@ MenuItem.propTypes = {
   disabledTextColor: PropTypes.string,
   onPress: PropTypes.func,
   style: TouchableHighlight.propTypes.style,
-  textStyle: Text.propTypes.style,
+  viewStyle: Text.propTypes.style,
   underlayColor: TouchableHighlight.propTypes.underlayColor,
 };
 
