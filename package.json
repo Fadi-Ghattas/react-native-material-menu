@@ -1,19 +1,39 @@
 {
-  "name": "react-native-material-menu",
-  "version": "0.3.0",
-  "description": "Material Menu for React Native",
-  "main": "src/index.js",
-  "keywords": [
-    "react-native",
-    "react",
-    "menu",
-    "material-menu",
-    "react-component",
-    "material",
-    "dropdown"
+  "_from": "github:Fadi-Ghattas/react-native-material-menu",
+  "_id": "react-native-material-menu@0.3.0",
+  "_inBundle": false,
+  "_location": "/react-native-material-menu",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-material-menu@github:Fadi-Ghattas/react-native-material-menu",
+    "name": "react-native-material-menu",
+    "escapedName": "react-native-material-menu",
+    "rawSpec": "github:Fadi-Ghattas/react-native-material-menu",
+    "saveSpec": "github:Fadi-Ghattas/react-native-material-menu",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
   ],
-  "author": "Maksim Milyutin <mmxckk@gmail.com> (https://github.com/mxck)",
-  "license": "MIT",
+  "_resolved": "github:Fadi-Ghattas/react-native-material-menu#5dc83468408bdb391f859c1a6718193ab2f349b3",
+  "_spec": "react-native-material-menu@github:Fadi-Ghattas/react-native-material-menu",
+  "_where": "/Users/rawanal-omari/Documents/cloudhoods-react",
+  "author": {
+    "name": "Maksim Milyutin",
+    "email": "mmxckk@gmail.com",
+    "url": "https://github.com/mxck"
+  },
+  "bugs": {
+    "url": "https://github.com/mxck/react-native-material-menu/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  },
+  "deprecated": false,
+  "description": "Material Menu for React Native",
   "devDependencies": {
     "babel-eslint": "~8.2.0",
     "eslint": "~4.19.0",
@@ -24,18 +44,26 @@
     "eslint-plugin-react": "~7.7.0",
     "prettier": "~1.11.0"
   },
+  "homepage": "https://github.com/mxck/react-native-material-menu#readme",
+  "keywords": [
+    "react-native",
+    "react",
+    "menu",
+    "material-menu",
+    "react-component",
+    "material",
+    "dropdown"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "react-native-material-menu",
   "peerDependencies": {
     "react": ">= 16.3.0",
     "react-native": ">= 0.54.0"
   },
-  "dependencies": {
-    "prop-types": "^15.6.0"
-  },
-  "bugs": {
-    "url": "https://github.com/mxck/react-native-material-menu/issues"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mxck/react-native-material-menu.git"
-  }
+    "url": "git+https://github.com/mxck/react-native-material-menu.git"
+  },
+  "version": "0.3.0"
 }

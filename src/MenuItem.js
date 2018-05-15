@@ -57,10 +57,10 @@ MenuItem.defaultProps = {
 
 const styles = StyleSheet.create({
   container: {
-    height: 48,
+    height: 30,
     justifyContent: 'center',
     maxWidth: 248,
-    minWidth: 124,
+    minWidth: 100,
   },
   title: {
     fontSize: 14,
