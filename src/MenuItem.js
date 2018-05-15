@@ -40,7 +40,7 @@ function MenuItem({
 }
 
 MenuItem.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.object.isRequired,
   disabled: PropTypes.bool,
   disabledTextColor: PropTypes.string,
   onPress: PropTypes.func,
